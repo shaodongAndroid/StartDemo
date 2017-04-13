@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             default:
+                Toast.makeText(this, "Fail", Toast.LENGTH_SHORT).show();
                 break;
         }
     }
